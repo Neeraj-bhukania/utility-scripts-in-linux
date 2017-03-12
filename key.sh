@@ -1,5 +1,5 @@
 #!/bin/bash
-# set up keyboard to exchange the Shift and Up keys, and the Down and Right keys
+# set up keyboard to edit the numpad keys to numeric keys 
 xmodmap -e "keycode 87 = exclam KP_1"
 xmodmap -e "keycode 88 = at KP_2" 
 xmodmap -e "keycode 89 = numbersign KP_3"
